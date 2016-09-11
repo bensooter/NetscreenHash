@@ -1,5 +1,5 @@
 # NetscreenHash
-Small Python 3 script with two function for dealing with Juniper SSG Netscreen hashes.
+Small Python 3 script with two functions for dealing with Juniper SSG Netscreen hashes.
 
 `makepass(user, password)` allows the user to generate a Juniper Netscreen SSG style hash.  
 
