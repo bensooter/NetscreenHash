@@ -48,8 +48,6 @@ def reversetomd5(knownhash):
     for i in block:
         n1 = i >> 8
         n2 = i & 0xff
-        #print(bytes([n1]))
-        #print(bytes([n2]))
         md5hash+=bytes([n1])+bytes([n2])
     return binascii.hexlify(md5hash).decode()
 
